@@ -1,0 +1,16 @@
+.boton{
+    width:  350px;
+    margin: 23px auto;
+    padding: 10px;
+border: 2px solid rgb(33, 23, 122);
+border-radius: 20px;
+}
+
+.boton button{
+    color: white;
+    background-color: green;
+    border: 1px solid black;
+    padding: 9px;
+    border-radius: 20px;
+    margin: 2px;
+}

@@ -1,0 +1,18 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+dd{
+    text-align: left;
+    
+}
+
+dd button{
+    background-color: red;
+    width: 150px;
+    border-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 4px;
+}

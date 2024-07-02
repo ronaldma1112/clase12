@@ -1,0 +1,71 @@
+* {
+    margin: 10px;
+    background-color: rgb(37, 32, 32);
+    
+    color: white;
+}
+h1{
+    color: orange;
+    font-size: 22.40px;
+    text-shadow: 4px 2px 3px red;
+}
+
+header {
+    width: 400px;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(35, 94, 150);
+    border-radius: 5px;
+}
+
+nav {
+    width: 400px;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(35, 94, 150);
+    border-radius: 5px;
+}
+
+.Menu {
+    display: flex;
+    width: 400px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.Menu section {
+    flex: 2;
+    background-color: rgb(35, 94, 150);
+    height: 100px;
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Menu p {
+    margin: 0;
+    padding: 10px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: rgb(28, 28, 88);
+}
+
+.Menu aside {
+    flex: 1;
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(35, 94, 150);
+    border-radius: 5px;
+    width: 200px;
+}
+
+footer {
+    width: 400px;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(35, 94, 150);
+    border-radius: 5px;
+}

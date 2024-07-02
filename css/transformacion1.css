@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Cursiva1';
+    src: url('../font/PlaywriteID-VariableFont_wght.ttf') format(TrueType);
+}
+
+* {
+    margin: 0;
+}
+
+.element {
+    background-color: tomato;
+    width: 250px;
+    height: 200px;
+    margin: 60px auto;
+    /*Las transformaciones y transiciones*/
+    /*transform: translateX(100px) translateY(200px) translateZ(50px);*/
+    /*transform: rotate(parametros);
+    donde:
+    0-360 deg
+    0-400 grad
+    0-6.28319 rad
+    0-1 turn
+    */
+    transition: 2s;
+}
+
+.element:hover {
+    background-color: rgb(245, 153, 137);
+    width: 400px;
+    transform: rotate(6.28319rad);
+    transform: scalex(1.2) scaleY(1.2);
+    border-radius: 10px 160px;
+
+    font-size: 12px;
+}
+
+.element h3 {
+    text-align: center;
+    font-family: 'Cursiva1';
+    color: blueviolet;
+}
